@@ -1,18 +1,19 @@
-## Amazon Sales Analysis
+# Amazon Sales Analysis
 
 
-# Dataset Overview
+## Dataset Overview
 
 The dataset used for this report is Amazon Sales dataset. It was obtained from Kaggle, a public website (Kaggle, 2023). The dataset provides detailed insights into Amazon sales data including SKU code, design number, stock, category, size and colour. With this dataset, one can obtain information on which products sell best, which SEO titles generate the most sales and the best price range for a product in a category. 
 
 This dataset consists mainly of categorical type of data which include Category: Type of product (String), Size: Size of the product (String), Status: Status of the sale (String), Fulfilment: Method of fulfilment (String), Style: Style of the product (String), SKU: Stock Keeping Unit (String), ASIN: Amazon Standard Identification Number (String), Courier Status: Status of the courier (String), Currency: The currency used for the sale (String), and B2B: Business to business sale (Boolean).
 There are two numerical variables in the dataset; Qty: Quantity of the product (Integer) and Amount: Amount of the sale (Float). Date: Date of the sale (Date) is a temporal variable with time-related information.
 
-# Dataset cleaning
+## Dataset cleaning
 
 Below is a screenshot of the raw dataset:
 
- Fig 1.1
+![Fig  1 1 Raw dataset](https://github.com/user-attachments/assets/95af9aa0-f73a-439e-a286-4e925045f934)
+
 
 The following steps were carried out to clean the data:
 - The dataset was checked for duplicates but no duplicates were found.
@@ -23,23 +24,21 @@ The following steps were carried out to clean the data:
 
 After cleaning the dataset, it consists of 116044 rows and 21 columns. Below is a screenshot of the clean dataset:
 
-Fig. 1.2
+![Fig  1 2 Clean dataset](https://github.com/user-attachments/assets/874f6b1d-45ea-4b89-ae9f-7d9ff94705e9)
+
 
 
 ## DATA ANALYSIS AND VISUALISATION
 
-# Definitions:
+### Quantity by Week and Category
 
-Data analysis is the practice of extracting useful information from data to make practical decisions (Coursera, 2024).
-Data visualisation is a graphical display of information obtained from data using charts, graphs, infographics, tables and animations (Indeed, 2023).
-
-# Quantity by Week and Category
-
+![Quantity by week and category](https://github.com/user-attachments/assets/d1552c74-7d9b-461d-9985-1f0d369f9456)
 
 This is a bar chart showing quantity of clothing sold per week and category with ‘week’ on the x-axis and ‘quantity’ on the y-axis, ‘category’ is shown with colour indicators in each bar. The height of each bar corresponds to the total quantity of products sold for a particular category in the given week. The highest quantity of dresses sold was recorded on the week of April 18, 2022 while the lowest quantity was recorded on the week of June 27, 2022. The colour-coded bars can be used to quickly assess the performance of different product categories over time. It can be easily identified that the ‘set’ category consistently contributed the most to overall sales volume and the ‘kurta’ category exhibited fluctuations in demand.
 
-# B2B sales quantity
+### B2B sales quantity
 
+![B2B sales quantity](https://github.com/user-attachments/assets/7c3a9d0c-0971-4466-86df-3ce4c066c46e)
 
 This circle chart illustrates B2B (business to business) sales quantity. The bigger circle depicting false is 99.28%, meaning that this percentage of sales was not from business but from individual consumers. The smaller circle depicting true is 0.72%, which means that 0.72% sales was from business. This information can be used to determine how to improve marketing efforts within a particular target audience.
 
@@ -51,39 +50,42 @@ This circle chart illustrates B2B (business to business) sales quantity. The big
 
 
 
-# Quantity by Status
+### Quantity by Status
 
 
 
 This is a horizontal bar chart depicting the quantity of sales by courier status. The twelve courier statuses are on y-axis while quantity is on x-axis. Each bar represents a specific status such as ‘shipped’, ‘cancelled’, and ‘pending’ with the length of the bar indicating the quantity of sales associated with each status. The longest bar is that of status ‘shipped’ with 77,835 quantity of sales. Status ‘Shipped-Delivered to buyer’ has 28,879 quantity of sales. This shows that less than half of products shipped were eventually delivered to the buyer.
 
 
+![Quantity by Status](https://github.com/user-attachments/assets/2c8db703-f1d4-46ec-80ae-b30d4b120fc8)
 
 
 
 
-# Quantity by Size and Category
+### Quantity by Size and Category
 
 
 This horizontal bar chart presents the quantity of sales across different product categories, segmented by size. The y-axis represents the different sizes while the x-axis represents the quantity of products sold. Bars within each size are colour-coded to represent different product categories. The bar chart shows that large size is the most popular within the ‘western dress’ product category, medium size is the most popular for ‘set’ category and large size is the most popular among buyers of the ‘kurta’ category. In total, medium size has the highest quantity in sales followed by large size. 
 
 
+![Quantity by size and category](https://github.com/user-attachments/assets/e6e46a32-df28-4037-a421-b90f9caa17a3)
 
 
 
 
 
 
-# Quantity by Courier Status
+### Quantity by Courier Status
 
 
 This pie chart illustrates the distribution of sales quantity based on different courier statuses. It provides a concise summary of the proportion of sales orders categorised by their respective courier statuses. There are two courier status: shipped and unshipped. The size of each pie segment corresponds to the proportion of sales orders attributed to that particular courier status.  The larger segment (shipped) indicates a higher quantity of orders (109,896) with that status while the smaller segment (unshipped) indicates a lesser quantity of orders (6,586) with the status. This proportion of courier status gives an insight into the overall performance of the courier services utilised. Customers can be rest assured of receiving their orders with the obvious 94.35% success rate in shipping.
 
+![Quantity by courier status](https://github.com/user-attachments/assets/b07cb3af-a3a6-4074-bac0-eafac380568d)
 
 
 
 
-# Quantity by Size of ethnic wear
+### Quantity by Size of ethnic wear
 
 
 
@@ -95,7 +97,7 @@ It is a horizontal bar chart illustrating the quantity of ethnic wear according 
 
 
 
-# Top 10 states by quantity and category for ship-service level
+### Top 10 states by quantity and category for ship-service level
 
 
 
@@ -112,7 +114,7 @@ The horizontal bar chart shows quantity on the x-axis and ship-service level on 
 
 
 
-# Amount by Week and Category
+### Amount by Week and Category
 
 
 This line chart depicts the amount (price) of sales over time, organised by weeks, and segmented by different product categories. It provides a visual representation of how sales revenue fluctuates across various categories over time. The individual colours of each line represents category while each point on a line represents the amount (price) in a particular week. The ‘set’ clothing category recorded the highest sales revenue across all the weeks with the highest amount being INR3,691,013 on the week of May 2, 2022.
@@ -124,7 +126,7 @@ This line chart depicts the amount (price) of sales over time, organised by week
 
 
 
-# Quantity by SKU and Category
+### Quantity by SKU and Category
 
 
 
@@ -141,7 +143,7 @@ SKU is Store Keeping Unit alphanumeric code used for tracking a product in sales
 
 
 
-# Quantity by Promotion-IDs by Category
+### Quantity by Promotion-IDs by Category
 
 
 
@@ -154,11 +156,7 @@ This is a horizontal bar chart depicting the quantity of category products sold 
 
 ## DATA MINING
 
-# Definition:
-	
- Data mining is the process of using statistical, artificial intelligence and database management tools to analyse large datasets in order to uncover patterns and relationships in data for making informed decisions (Clifton, 2024).
-
- # Implementation of data mining algorithm:
+### Implementation of data mining algorithm:
 
 - The csv format of the dataset was imported into Weka.
 - The data was pre-processed.
@@ -205,7 +203,7 @@ There are 16 attributes. 99.91% instances were correctly classified and 0.089% w
 
 ## CONCLUSION
 
-# Overall Visualisation results
+### Overall Visualisation results
 
 - The highest volume of sales was from individual customers
 - Higher volume of orders are shipped and people place their orders using expedited shipping more than standard ship
@@ -213,14 +211,14 @@ There are 16 attributes. 99.91% instances were correctly classified and 0.089% w
 - Generally, medium and large sizes were highly ordered. 
 - Non-indian wear was sold in higher quantities than Indian wear.
 
- # Data Mining results
+ ### Data Mining results
 
 - The data mining algorithm used is Decision trees - J48
 - The confusion matrix showed a high number of true positives and true negatives, which is a good indication that the model is a good fit for the data.
 - The 1st iteration was chosen because the stability of the model suggests convergence meaning that the tree has reached a point where splitting the data further will not lead to better accuracy.
 - It has 99.91% correctly classified instances. 
 
-# Business Intelligence obtained from results
+### Business Intelligence obtained from results
 
 1. Amazon should focus on promoting the sale of dresses in the weeks of low sales to increase revenue.
 2. As the majority of sales are from individual consumers, the business can research ways to attract and retain business clients to increase B2B sales.
