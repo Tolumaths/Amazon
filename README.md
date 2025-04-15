@@ -3,7 +3,7 @@
 
 ## Dataset Overview
 
-The dataset used for this report is Amazon Sales dataset. It was obtained from Kaggle, a public website (Kaggle, 2023). The dataset provides detailed insights into Amazon sales data including SKU code, design number, stock, category, size and colour. With this dataset, one can obtain information on which products sell best, which SEO titles generate the most sales and the best price range for a product in a category. 
+The dataset used for this report is Amazon Sales dataset. It was obtained from Kaggle, a public website (https://kaggle.com). The dataset provides detailed insights into Amazon sales data including SKU code, design number, stock, category, size and colour. With this dataset, one can obtain information on which products sell best, which SEO titles generate the most sales and the best price range for a product in a category. 
 
 This dataset consists mainly of categorical type of data which include Category: Type of product (String), Size: Size of the product (String), Status: Status of the sale (String), Fulfilment: Method of fulfilment (String), Style: Style of the product (String), SKU: Stock Keeping Unit (String), ASIN: Amazon Standard Identification Number (String), Courier Status: Status of the courier (String), Currency: The currency used for the sale (String), and B2B: Business to business sale (Boolean).
 There are two numerical variables in the dataset; Qty: Quantity of the product (Integer) and Amount: Amount of the sale (Float). Date: Date of the sale (Date) is a temporal variable with time-related information.
@@ -30,13 +30,13 @@ After cleaning the dataset, it consists of 116044 rows and 21 columns. Below is 
 
 ## DATA ANALYSIS AND VISUALISATION
 
-### Quantity by Week and Category
+### 1. Quantity by Week and Category
 
 ![Quantity by week and category](https://github.com/user-attachments/assets/d1552c74-7d9b-461d-9985-1f0d369f9456)
 
 This is a bar chart showing quantity of clothing sold per week and category with ‘week’ on the x-axis and ‘quantity’ on the y-axis, ‘category’ is shown with colour indicators in each bar. The height of each bar corresponds to the total quantity of products sold for a particular category in the given week. The highest quantity of dresses sold was recorded on the week of April 18, 2022 while the lowest quantity was recorded on the week of June 27, 2022. The colour-coded bars can be used to quickly assess the performance of different product categories over time. It can be easily identified that the ‘set’ category consistently contributed the most to overall sales volume and the ‘kurta’ category exhibited fluctuations in demand.
 
-### B2B sales quantity
+### 2. B2B sales quantity
 
 ![B2B sales quantity](https://github.com/user-attachments/assets/7c3a9d0c-0971-4466-86df-3ce4c066c46e)
 
@@ -50,7 +50,7 @@ This circle chart illustrates B2B (business to business) sales quantity. The big
 
 
 
-### Quantity by Status
+### 3. Quantity by Status
 
 
 
@@ -62,7 +62,7 @@ This is a horizontal bar chart depicting the quantity of sales by courier status
 
 
 
-### Quantity by Size and Category
+### 4. Quantity by Size and Category
 
 
 This horizontal bar chart presents the quantity of sales across different product categories, segmented by size. The y-axis represents the different sizes while the x-axis represents the quantity of products sold. Bars within each size are colour-coded to represent different product categories. The bar chart shows that large size is the most popular within the ‘western dress’ product category, medium size is the most popular for ‘set’ category and large size is the most popular among buyers of the ‘kurta’ category. In total, medium size has the highest quantity in sales followed by large size. 
@@ -75,7 +75,7 @@ This horizontal bar chart presents the quantity of sales across different produc
 
 
 
-### Quantity by Courier Status
+### 5. Quantity by Courier Status
 
 
 This pie chart illustrates the distribution of sales quantity based on different courier statuses. It provides a concise summary of the proportion of sales orders categorised by their respective courier statuses. There are two courier status: shipped and unshipped. The size of each pie segment corresponds to the proportion of sales orders attributed to that particular courier status.  The larger segment (shipped) indicates a higher quantity of orders (109,896) with that status while the smaller segment (unshipped) indicates a lesser quantity of orders (6,586) with the status. This proportion of courier status gives an insight into the overall performance of the courier services utilised. Customers can be rest assured of receiving their orders with the obvious 94.35% success rate in shipping.
@@ -85,7 +85,7 @@ This pie chart illustrates the distribution of sales quantity based on different
 
 
 
-### Quantity by Size of ethnic wear
+### 6. Quantity by Size of ethnic wear
 
 
 
@@ -97,7 +97,7 @@ It is a horizontal bar chart illustrating the quantity of ethnic wear according 
 
 
 
-### Top 10 states by quantity and category for ship-service level
+### 7. Top 10 states by quantity and category for ship-service level
 
 
 
@@ -114,7 +114,7 @@ The horizontal bar chart shows quantity on the x-axis and ship-service level on 
 
 
 
-### Amount by Week and Category
+### 8. Amount by Week and Category
 
 
 This line chart depicts the amount (price) of sales over time, organised by weeks, and segmented by different product categories. It provides a visual representation of how sales revenue fluctuates across various categories over time. The individual colours of each line represents category while each point on a line represents the amount (price) in a particular week. The ‘set’ clothing category recorded the highest sales revenue across all the weeks with the highest amount being INR3,691,013 on the week of May 2, 2022.
@@ -126,7 +126,7 @@ This line chart depicts the amount (price) of sales over time, organised by week
 
 
 
-### Quantity by SKU and Category
+### 9. Quantity by SKU and Category
 
 
 
@@ -143,7 +143,7 @@ SKU is Store Keeping Unit alphanumeric code used for tracking a product in sales
 
 
 
-### Quantity by Promotion-IDs by Category
+### 10. Quantity by Promotion-IDs by Category
 
 
 
