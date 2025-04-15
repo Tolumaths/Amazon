@@ -84,20 +84,7 @@ This pie chart illustrates the distribution of sales quantity based on different
 
 
 
-
-### 6. Quantity by Size of ethnic wear
-
-
-
-It is a horizontal bar chart illustrating the quantity of ethnic wear according to their sizes. The clothes are grouped into two by ethnicity - Indian wear and others. The most ordered Indian wear is in size L (large), closely followed by size XL (extra large).The least ordered Indian wear is the free size. For the other category, the most ordered non-Indian wear is in size M (medium).
-
-
-
-
-
-
-
-### 7. Top 10 states by quantity and category for ship-service level
+### 6. Top 10 states by quantity and category for ship-service level
 
 ![Top 10 states by quantity and Category for Ship- service level](https://github.com/user-attachments/assets/dddfb393-4ffc-421f-a566-c55746f3a711)
 
@@ -115,7 +102,7 @@ The horizontal bar chart shows quantity on the x-axis and ship-service level on 
 
 
 
-### 8. Amount by Week and Category
+### 7. Amount by Week and Category
 
 
 This line chart depicts the amount (price) of sales over time, organised by weeks, and segmented by different product categories. It provides a visual representation of how sales revenue fluctuates across various categories over time. The individual colours of each line represents category while each point on a line represents the amount (price) in a particular week. The ‘set’ clothing category recorded the highest sales revenue across all the weeks with the highest amount being INR3,691,013 on the week of May 2, 2022.
@@ -128,13 +115,14 @@ This line chart depicts the amount (price) of sales over time, organised by week
 
 
 
-### 9. Quantity by SKU and Category
+### 8. Quantity by SKU and Category
 
 
 
 SKU is Store Keeping Unit alphanumeric code used for tracking a product in sales. The chart is a horizontal bar chart showing quantity by SKU. The product with SKU JNE3797-KR-L which is the code for ‘Western dress’ has the highest quantity in sales of 661.
 
 
+![Quantity by SKU and category](https://github.com/user-attachments/assets/75d4e805-3fb5-4c55-9fcb-8a6ca1c7cfa8)
 
 
 
@@ -145,8 +133,9 @@ SKU is Store Keeping Unit alphanumeric code used for tracking a product in sales
 
 
 
-### 10. Quantity by Promotion-IDs by Category
+### 9. Quantity by Promotion-IDs by Category
 
+![Quantity by promotion-ids by category](https://github.com/user-attachments/assets/569963ab-c188-46ae-9ed4-338a6bf11bdb)
 
 
 This is a horizontal bar chart depicting the quantity of category products sold on the x-axis and the promotion IDs on the y-axis. Promotion IDs are unique codes used to run promotion campaigns on products. The promotion ID with the highest quantity is [IN Core Free Shipping 2015/04/08 23-48-5-108]. This visualization can be used to track the effectiveness of promotion campaigns.
