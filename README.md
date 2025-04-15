@@ -99,6 +99,7 @@ It is a horizontal bar chart illustrating the quantity of ethnic wear according 
 
 ### 7. Top 10 states by quantity and category for ship-service level
 
+![Top 10 states by quantity and Category for Ship- service level](https://github.com/user-attachments/assets/dddfb393-4ffc-421f-a566-c55746f3a711)
 
 
 The horizontal bar chart shows quantity on the x-axis and ship-service level on the y-axis for the top 10 states. There are two ship-service levels: Expedited and Standard, each represented by its own colour code. Expedited ship service refers to shipping that delivers goods faster than the standard period of time. The graph shows that for all the top 10 states, expedited ship service is used more to deliver goods than the standard ship-service.
@@ -119,6 +120,7 @@ The horizontal bar chart shows quantity on the x-axis and ship-service level on 
 
 This line chart depicts the amount (price) of sales over time, organised by weeks, and segmented by different product categories. It provides a visual representation of how sales revenue fluctuates across various categories over time. The individual colours of each line represents category while each point on a line represents the amount (price) in a particular week. The ‘set’ clothing category recorded the highest sales revenue across all the weeks with the highest amount being INR3,691,013 on the week of May 2, 2022.
 
+![Amount by week and Category](https://github.com/user-attachments/assets/af2815f6-0261-4601-9efb-71dada7a3b28)
 
 
 
